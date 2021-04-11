@@ -14,6 +14,14 @@ function blog(){
                     scardheader[i].innerText = data[i].id;
                     cardtitle[i].innerText = data[i].titre;
                     scardtext[i].innerText = data[i].contenu;
+
+
+                    
+                    // let section = document.querySelector('section');
+                    // section.innertHTML += '<div class = "card text-center mt-5 sizeArticle"><div class="card-header">' + data[i].id
+                    // + '</div><div class= "card-body"><h5 class="card-titre">' + data[i].titre + '<h5><p class="card-text>'
+                    // + data[i].contenu + '</p></div><a href="#" class="btn btn-primary">Lire article</a></div>';
+
                 }    
             } 
             // Si une erreur est survenue (exemple un fichier qui n'existe pas)
