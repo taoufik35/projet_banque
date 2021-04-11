@@ -129,7 +129,7 @@ textarea {
 	}
 
   .form{
-    margin-top: 17em;
+    margin-top: 19em;
     margin-bottom: 10em;
     display: flex;
     justify-content: center;
@@ -147,11 +147,23 @@ textarea {
   .col-sm-6 {
     flex: 0 0 auto;
     width: 70%;
+    padding-top: 3em;
   }
   .col-sm-2 {
     flex: 0 0 auto;
     width: 12.500%;
-}
+  }
+  .option{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+  }
+  #objet_de_contact{
+    width: 72%;
+  }
+  label{
+    margin-right: auto;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
